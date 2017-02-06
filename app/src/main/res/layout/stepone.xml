@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.textstep.StepOne" >
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bar_step_title" />
+
+    <ImageView
+        android:id="@+id/step1"
+        android:layout_width="296dp"
+        android:layout_height="26.33dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/timeline_step2"
+        />
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="196.33dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="31dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF" >
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="42.67dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12.33dp"
+            android:background="@drawable/step2_title"/>
+
+        <EditText
+            android:id="@+id/edt"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:textColor="#000000"
+            android:hint="오늘은 어떤 점이 힘들었나요?"
+            android:maxLength="75"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="20.33dp" >
+
+        <Button
+            android:id="@+id/btnBefore"
+             android:layout_width="126dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginRight="19dp"
+            android:clickable="true"
+            android:onClick="onMyButtonClick"
+            android:background="@drawable/button_back" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="126dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="46dp"
+            android:clickable="true"
+            android:onClick="onMyButtonClick"
+            android:background="@drawable/button_next" />
+    </LinearLayout>
+
+</LinearLayout>

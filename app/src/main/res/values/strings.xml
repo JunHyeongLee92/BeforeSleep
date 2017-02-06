@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Before Sleep</string>
+    <string name="title_section1">마음보기</string>
+    <string name="title_section2">세줄 일기 쓰기</string>
+    <string name="title_section3">내 기록 보기</string>
+    <string name="successfully_analysed">GOOD!!!</string>
+    <string name="no_face">No Face!!!</string>
+    <string name="error_occurred">Error!!!</string>
+</resources>

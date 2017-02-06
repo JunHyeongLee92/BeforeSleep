@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="15.67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28.33dp"
+        android:textSize="13dp"
+        android:textColor="#ffffff"
+        android:text="날마다 마음정리"/>
+    <TextView
+        android:layout_width="279.67dp"
+        android:layout_height="34.33dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:textSize="10dp"
+        android:textColor="#ffffff"
+        android:text="잠들기 전, 내 기분과 감정 그대로 사진을 찍고, 솔직한 감정을 담아 최대한 짧게 오늘 하루를 쓰세요."/>
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="327.33dp"
+        android:layout_marginTop="19.67dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:src="@drawable/line"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        android:text="셀프 카메라로 당신의 기분을 기록해보세요."/>
+    <ImageButton
+        android:layout_width="72.33dp"
+        android:layout_height="72.33dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:layout_marginTop="17.67dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/camera"
+        android:background="#000000ff"
+        android:id="@+id/addBtn" />
+</LinearLayout>
