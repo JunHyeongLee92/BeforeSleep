@@ -21,7 +21,7 @@
 
 * Work Flow
 
-    ![workflow](./img/workflow.jpg)
+    ![workflow](./img/workflow.JPG)
 
 * Emotion API
 
