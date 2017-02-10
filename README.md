@@ -39,8 +39,8 @@
 
 * 일기 작성 화면
 
-    ![main_3](./img/main_3.png)
+    ![main__3](./img/main__3.png)
 
 * 기록 보기 화면
 
-    ![main_4](./img/main_4.png)
+    ![main__4](./img/main__4.png)
