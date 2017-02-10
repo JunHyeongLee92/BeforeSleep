@@ -31,16 +31,16 @@
 ## 미리보기
 * 메인 화면
 
-    ![main](./img/main_1.png)
+    ![main_1](./img/main_1.png)
 
 * 감정 인식 결과 화면
 
-    ![main2](./img/main_2.png)
+    ![main_2](./img/main_2.png)
 
 * 일기 작성 화면
 
-    ![main3](./img/main_3.png)
+    ![main_3](./img/main_3.png)
 
 * 기록 보기 화면
 
-    ![main4](./img/main_4.png)
+    ![main_4](./img/main_4.png)
